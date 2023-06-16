@@ -3,6 +3,6 @@ session_start();
 $conection = mysqli_connect(
     'localhost',
     'root',
-    '@Colombia.01',
+    'root',
     'crud_w'
 ) or die(mysqli_error($mysqli));
