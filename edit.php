@@ -1,5 +1,6 @@
 <?php
 include("conexion.php");
+mysqli_set_charset($conection, "utf8");
 $id_curso = $_GET['id_curso'];
 
 $sql = "select * from curso where id_curso=$id_curso";

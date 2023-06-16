@@ -1,5 +1,6 @@
 <?php
 include("conexion.php");
+mysqli_set_charset($conection, "utf8");
 $sql = "select * from curso";
 $query = mysqli_query($conection, $sql);
 
